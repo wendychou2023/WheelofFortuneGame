@@ -1,0 +1,17 @@
+﻿<Window x:Class="_1155116677_ProjectI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1155116677_ProjectI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="myGrid">
+        <Canvas x:Name="canvas" Width="150" Margin="0,29,0,256" HorizontalAlignment="Center" Height="150"/>
+        <TextBlock x:Name="textBlock" TextWrapping="Wrap" Width="150" Margin="325,341,325,43"/>
+        <Button x:Name="startButton" Content="Start" Width="30" Click="startButton_Click" Margin="325,238,415,167" RenderTransformOrigin="0.592,0.809" Height="15" FontSize="10"/>
+        <Button x:Name="stopButton" Content="Stop" Width="30" Height="15" Margin="415,238,325,167" RenderTransformOrigin="0.525,1.525" Click="stopButton_Click" FontSize="10"/>
+        <TextBlock x:Name="textBlockRule" TextWrapping="Wrap" Width="150" Margin="325,279,325,99" RenderTransformOrigin="0.483,1.264"/>
+
+    </Grid>
+</Window>
